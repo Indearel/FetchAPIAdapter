@@ -2,7 +2,7 @@ import React from "react";
 
 import Timebox from "./Timebox";
 import TimeboxCreator from "./TimeboxCreator";
-import TimeboxesAPI from "../api/FakeTimeboxesApi";
+import TimeboxesAPI from "../api/FetchTimeboxesApi";
 
 class TimeboxList extends React.Component {
     state = {
